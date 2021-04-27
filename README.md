@@ -14,7 +14,7 @@ To install it with Composer, run `composer require winter/debugbar-plugin` from 
 
 ### Usage
 
-Set `debug` to `true` in `config/app.php`, and the debugbar should appear on your site to all authenticated backend users with the `winter.debugbar.access_debugbar` permission. If you would like to make the debugbar accessible to all users regardless of authentication & permissions, then set `allow_public_access` to `true` in `plugins/winter/debugbar/config.php`.
+Set `debug` to `true` in `config/app.php`, and the debugbar should appear on your site to all authenticated backend users with the `winter.debugbar.access_debugbar` permission. If you would like to make the debugbar accessible to all users regardless of authentication & permissions, then set `allow_public_access` to `true` in `plugins/winter/debugbar/config/config.php`.
 
 See [barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar) for more usage instructions and documentation.
 
